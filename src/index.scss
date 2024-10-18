@@ -1,0 +1,29 @@
+@forward "global";
+
+* {
+  outline: 2px solid orange;
+}
+
+.main-header {
+  .primary-navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+      display: block;
+    }
+
+    &__link-container {
+      display: flex;
+      list-style-type: none;
+
+      &__link {
+        display: block;
+        color: var(--primary-color);
+        text-decoration: none;
+        padding: 0.25rem 0.5rem;
+      }
+    }
+  }
+}
